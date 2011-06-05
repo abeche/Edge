@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.abeche.android.edge</groupId>
+  <artifactId>Edge</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <repositories>
+	  <repository>
+	    <id>maven.seasar.org</id>
+	    <name>The Seasar Foundation Maven2 Repository</name>
+	    <url>http://maven.seasar.org/maven2</url>
+	  </repository>
+	  </repositories>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.google.android</groupId>
+  		<artifactId>android</artifactId>
+  		<version>1.5_r3</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.seasar.aptina</groupId>
+  		<artifactId>aptina-unit</artifactId>
+  		<version>1.0.0</version>
+  		<scope>test</scope>
+  	</dependency>
+  </dependencies>
+</project>
